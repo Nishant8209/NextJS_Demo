@@ -1,0 +1,20 @@
+[
+  {
+        "id": 1,
+        "name": "Smartphone X",
+        "price": 699,
+        "image": "phone.webp"
+    },
+    {
+        "id": 2,
+        "name": "Laptop Pro",
+        "price": 1299,
+        "image": "laptop.webp"
+    },
+    {
+        "id": 3,
+        "name": "Smartwatch",
+        "price": 299,
+        "image": "watch.webp"
+    }
+]
