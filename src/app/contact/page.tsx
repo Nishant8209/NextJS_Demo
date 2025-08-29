@@ -3,7 +3,7 @@ export default function ContactPage() {
     <div className="max-w-4xl mx-auto py-16 px-4">
       <h1 className="text-4xl font-bold text-gray-800 dark:text-white mb-6">Contact Us</h1>
       <p className="text-gray-600 dark:text-gray-300 mb-8">
-        We'd love to hear from you. Please fill out the form below and we'll get back to you shortly.
+        We`&apos;`d love to hear from you. Please fill out the form below and we`&apos;`ll get back to you shortly.
       </p>
 
       <form className="grid grid-cols-1 md:grid-cols-2 gap-6">

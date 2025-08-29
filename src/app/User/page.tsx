@@ -13,6 +13,7 @@ async function fetchUsers() {
 }
 
 export default function Page() {
+  // @typescript-eslint/no-explicit-any
   const [users, setUsers] = React.useState<any[]>([]);
   const [loading, setLoading] = React.useState(true);
   const router = useRouter();

@@ -12,7 +12,7 @@ interface Product {
 export default async function ProductPage({ params }: { params: { id: string } }) {
   const host = (await headers()).get('host');
   const protocol = process.env.NODE_ENV === 'development' ? 'http' : 'https';
-  const {id} = await params;
+  const {id} =  params;
   const res = await fetch(`${protocol}://${host}/data/products.json`, {
     cache: 'no-store',
   });
